@@ -1,0 +1,139 @@
+
+
+
+.logopic{
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+
+.header{
+    background-color: beige;
+    height: 120px;
+    width: 100%;
+    display: inline-flex;
+    border-bottom: 3px solid;
+	position: fixed;
+	z-index: 9;
+    
+	
+}
+
+.contactinfo{
+    margin-right:10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+	margin-left:auto;
+    
+	
+    
+
+}
+.menu{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+	/* margin-left: 100px; */
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.fa{
+color: #000;
+}
+.menu li a{
+color: #000;
+font-weight: bold;
+list-style: none;
+text-decoration: none;
+}
+.menu li:hover{
+background-image: linear-gradient(to right, #024600, #e04d1c);
+color: rgb(255, 255, 255);
+border-radius: 30px;
+}
+.menu li:hover a{
+color: white;
+}
+.menu li:hover .fa{
+color: white;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .footer{
+    background-image: url("img/bauty6.webp");
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 100%;
+    border-bottom: 2px solid blue;
+  }
+  
+  

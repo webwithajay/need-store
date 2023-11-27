@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+			<img src="img/logo.png" class="logopic">
+		</div>
+
+        <div class="menubar">
+			<ul class="menu">
+				<li><i class="fa fa-home"></i> <a href="index.html">Home</a></li>
+				<li><i class="fa fa-building"></i> <a href="#">About Us</a></li>
+				<li><i class="fa fa-tools"></i> <a href="#">Services</a></li>
+				<li><i class="fa fa-mobile"></i> <a href="#">Contact Us</a></li>
+				<li><i class="fa fa-list"></i> <a href="#">Our Blogs</a></li>
+			</ul>
+		</div>
+        <div class="contactinfo">
+			<span class="fa fa-phone"></span> 8601698167 <br>
+			<span class="fa fa-envelope"></span> info@jay.com
+		</div>
+    </header>
+	<div>
+		<video autoplay loop muted playsinline disablepictureinpicture height="850" width="1250" >
+			<source src="img/movie.mp4" type="video/mp4">
+		
+		</video>
+	 </div>
+	<!-- <<div>
+		<div class="cloths">
+			<div><img src="img/c1.webp"></div>
+			<div><img src="img/c3.jpeg"></div>
+			<div><img src="img/c2.jpeg"></div>
+			<div><img src="img/c4.jpeg"></div>
+			<div><img src="img/c5.jpeg"></div>
+			<div><img src="img/c6.jpeg"></div>
+			
+			
+		</div>
+		<div class="bauty">
+			<div><img src=img/"bauty1.jpeg"></div>
+			<div><img src="img/bauty2.jpeg"></div>
+			<div><img src="img/bauty3.jpeg"></div>
+			<div><img src="img/bauty4.jpeg"></div>
+			<div><img src="img/bauty5.jpeg"></div>
+			<div><img src="img/bauty6.webp"></div>
+
+
+		</div> -->
+	</div>  
+
+
+	<div class="row">
+  <div class="column">
+    <img src="img/bauty1.jpeg" alt="Beauty-product" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/bauty2.jpeg" alt="Beauty-cream" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/c1.webp" alt="boys-cloths" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/c4.jpeg" alt="girls-cloths" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<footer>
+	<div class="footer">
+		<h2>IMPORTANT sty</h2>
+		<ul class="ramu">
+			<li><i class="fa fa-home"></i> TAKIYA NIGOHI SAFIPUR UNNAO(209868)</li>
+			<li><i class="fa fa-phone"></i> 6392675114</li>
+			<li><i class="fa fa-envelope"></i>SRAMMART@GMAIL.com</li>
+		</ul>
+
+	</div>
+</footer>
+
+	
+
+</body>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</html>
